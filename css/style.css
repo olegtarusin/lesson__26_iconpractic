@@ -236,8 +236,13 @@ h6 {
 }
 
 .header__menu {
-  padding-top: 3.5625em;
-  padding-bottom: 1.375em;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.header__container {
+  background: #7b7979;
+  border: 0.2rem solid #F08C00;
 }
 
 .menu {
@@ -647,10 +652,13 @@ h6 {
         -ms-flex-direction: column;
             flex-direction: column;
     row-gap: 2em;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
     padding-top: 200px;
+    overflow: auto;
   }
 
   .menu__item {
